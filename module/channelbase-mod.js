@@ -150,11 +150,11 @@ if (window.CLIENT.rank >= 3) {
 	$('.navbar-nav').append("<li><a id='logger-off' href='javascript:void(0)' style='display:none'>Logger</a></li>");
 	$('.navbar-nav').append("<li><a id='export-logger' href='javascript:void(0)' style=''>ExportLog</a></li>");*/
 }
-$('.navbar-nav').append("<li><a id='nico-on' class='yellow' href='javascript:void(0)' style='display: none'>Nico mode</a></li>");
-$('.navbar-nav').append("<li><a id='nico-off' href='javascript:void(0)' style='display:none'>Nico mode</a></li>");
-$('.navbar-nav').append("<li><a id='personal-nico-on' class='yellow' href='javascript:void(0)' style='display:none'>Nico mode(personal)</a></li>");
-$('.navbar-nav').append("<li><a id='personal-nico-off' href='javascript:void(0)' style='display:none'>Nico mode(personal)</a></li>");
-$('.navbar-nav').append("<li><a id='member-list' href='javascript:void(0)' style=''>Club Members</a></li>");
+//$('.navbar-nav').append("<li><a id='nico-on' class='yellow' href='javascript:void(0)' style='display: none'>Nico mode</a></li>");
+//$('.navbar-nav').append("<li><a id='nico-off' href='javascript:void(0)' style='display:none'>Nico mode</a></li>");
+//$('.navbar-nav').append("<li><a id='personal-nico-on' class='yellow' href='javascript:void(0)' style='display:none'>Nico mode(personal)</a></li>");
+//$('.navbar-nav').append("<li><a id='personal-nico-off' href='javascript:void(0)' style='display:none'>Nico mode(personal)</a></li>");
+//$('.navbar-nav').append("<li><a id='member-list' href='javascript:void(0)' style=''>Club Members</a></li>");
 $('.navbar-nav').append("<li><a id='queue-video-list' href='javascript:void(0)' style=''>Video List</a></li>");
 
 //middle draggable handle
