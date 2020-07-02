@@ -3172,7 +3172,7 @@ window.loadInitializer = function() {
 		countdown5 = document.getElementById('countdown5');
 		$(document.getElementById('date5')).html(new Date(date_utc5).toString().split('(')[0]);
 	});
-
+/*
 	countDown = new Date(date_utc1).getTime();
 	clearInterval(countDownTimer1);
 	countDownTimer1 = setInterval(function() {window.countdowner(countdown1, countDown, 1)}, second);
@@ -3192,7 +3192,7 @@ window.loadInitializer = function() {
 	countDown5 = new Date(date_utc5).getTime();
 	clearInterval(countDownTimer5);
 	countDownTimer5 = setInterval(function() {window.countdowner(countdown5, countDown5,  5)}, second);
-
+*/
 	$("#leader").removeClass("btn-default");
 	$("#Notif").removeClass("btn-default");
 }
