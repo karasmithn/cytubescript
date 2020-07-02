@@ -1037,7 +1037,7 @@ window[CHANNEL.name].audioNotice.handler = {
 		window[CHANNEL.name].chatNotice.handler["updateSoundEmote"](data);
 		window[CHANNEL.name].chatNotice.handler["hideEmote"]();
 		window[CHANNEL.name].chatNotice.handler["addCommandTitle"]();
-		window[CHANNEL.name].chatNotice.handler["nicoEffect"](data);
+		//window[CHANNEL.name].chatNotice.handler["nicoEffect"](data);
 	});
 
 	if (window[CHANNEL.name] && window[CHANNEL.name].modulesOptions && window[CHANNEL.name].modulesOptions.audioNotice) {
