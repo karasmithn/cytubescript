@@ -1,0 +1,222 @@
+<a title="club spreadsheet" href target="_" id="club_redirect">
+  <img src width="100%" height="100%" id="club_banner" />
+</a>
+<div>
+  <a class="btn btn-default expand-arrow" data-toggle="collapse" href="#collapseSchedule" role="button" aria-expanded="false" aria-controls="collapseSchedule">
+    <span id="collapseArrow2" class="glyphicon glyphicon-chevron-up"></span>
+  </a> 
+</div>
+<div class="collapse in" id="collapseSchedule">
+  <div class="card card-body">
+<div class="countdownbase">
+  <div class="container">
+<h3 id="timez"></h3>
+</div>
+</div>
+
+<div class="countdownbase" id="countdown1">
+<div class="container"> 
+  <h1 id="head1">Next Club Stream starts in...</h1> 
+  <div class="countdown"> 
+    <span class="cd_time" id="days1"></span>days<span class="cd_time" id="hours1"></span>Hours<span class="cd_time" id="minutes1"></span>Minutes<span class="cd_time" id="seconds1"></span>Seconds
+  </div> 
+  <div>
+  <h2 id="date1" class="countdownDate"></h2>
+</div>
+</div></div>
+
+<div class="countdownbase" id="countdown2">
+<div class="container"> 
+  <h1 id="head2"></h1> 
+  <div class="countdown"> 
+    <span class="cd_time" id="days2"></span>days<span class="cd_time" id="hours2"></span>Hours<span class="cd_time" id="minutes2"></span>Minutes<span class="cd_time" id="seconds2"></span>Seconds
+  </div> 
+  <div>
+  <h2 id="date2" class="countdownDate"></h2>
+</div>
+</div></div>
+<div class="countdownbase" id="countdown3">
+<div class="container"> 
+  <h1 id="head3"></h1> 
+  <div class="countdown"> 
+    <span class="cd_time" id="days3"></span>days<span class="cd_time" id="hours3"></span>Hours<span class="cd_time" id="minutes3"></span>Minutes<span class="cd_time" id="seconds3"></span>Seconds
+  </div> 
+  <div>
+  <h2 id="date3" class="countdownDate"></h2>
+</div>
+</div></div>
+
+<div class="countdownbase" id="countdown4">
+<div class="container"> 
+  <h1 id="head4"></h1> 
+  <div class="countdown"> 
+    <span class="cd_time" id="days4"></span>days<span class="cd_time" id="hours4"></span>Hours<span class="cd_time" id="minutes4"></span>Minutes<span class="cd_time" id="seconds4"></span>Seconds
+  </div> 
+  <div>
+  <h2 id="date4" class="countdownDate"></h2>
+</div>
+</div></div>
+
+<div class="countdownbase" id="countdown5">
+<div class="container"> 
+  <h1 id="head5"></h1> 
+  <div class="countdown"> 
+    <span class="cd_time" id="days5"></span>days<span class="cd_time" id="hours5"></span>Hours<span class="cd_time" id="minutes5"></span>Minutes<span class="cd_time" id="seconds5"></span>Seconds
+  </div> 
+  <div>
+  <h2 id="date5" class="countdownDate"></h2>
+</div>
+</div></div>
+</div>
+</div>
+<div>
+  <a class="btn btn-default expand-arrow" data-toggle="collapse" href="#collapseMessage" role="button" aria-expanded="false" aria-controls="collapseMessage">
+    <span id="collapseArrow" class="glyphicon glyphicon-chevron-up"></span>
+  </a> 
+</div>
+<div class="collapse in" id="collapseMessage">
+  <div class="card card-body">
+    <h4 class="yellow">Chat commands</h4>
+    <div class="row col-sm-12">
+      <ul class="nav nav-tabs">
+        <li>
+          <a class=" active" data-toggle="tab" href="#cmdSystem">System</a>
+        </li>          
+        <li>
+          <a data-toggle="tab" href="#cmdChatTxt">Text</a>
+        </li>
+        <li>
+          <a data-toggle="tab" href="#cmdChatImage">Image</a>
+        </li>
+        <li>
+          <a data-toggle="tab" href="#cmdChatSound">Sound</a>
+        </li>
+        <li>
+          <a data-toggle="tab" href="#cmdChatMod">Mod</a>
+        </li>
+        <li>
+          <a data-toggle="tab" href="#cmdChatAdminSystem">Admin(System)</a>
+        </li>
+        <li>
+          <a data-toggle="tab" href="#cmdChatAdminEtc">Admin(fluff)</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row col-sm-12 tab-content" style="margin-top:10px">
+      <div class="col-sm-12 tab-pane fade in active" id="cmdSystem">
+        <ul>
+          <li><b>/addq [url] [title(optional)]</b> - adds to the playlist</li>
+          <li><b>/img [url]</b> - posts image/gif</li>
+          <li><b>/spimg [url]</b> - spoiler tag image</li>
+          <li><b>/s [text]</b> - spoiler tag text</li>
+          <li><b>/pick [membername]</b> - display the member's picks(?)</li>
+          <li><b>/voteskip</b> - vote to skip this video</li>
+          <li><b>/skipclear</b> - remove voteskip counter</li>
+          <li><b>/skiphide</b> - do not display voteskip counter</li>
+          <li><b>/skipshow</b> - display voteskip counter</li>
+          <li><b>/unblockemote</b> - clears blocked emote list</li>
+          <li><b>/addrandom</b> - add a random video from spreadsheet</li>
+          <li><b>/yen [value]</b> - convert yen to usd</li>
+          <li><b>/search [anime title]</b> - search for user's pick</li>
+          <li><b>/stat [achievement]</b> - achievement stat</li>
+          <li><b>/statlist</b> - k-on girl stats</li>
+          <li><b>/searchop [text]</b> - search for video title from random queue</li>
+          <li><b>/top [1 ~ 10(optional)]</b> - lists top x active members by ticket count (default 5)</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="cmdChatTxt">
+        <ul id="msg-emote-list">
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="cmdChatImage">
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th> </th>
+              <th> </th>
+              <th> </th>
+              <th> </th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody id="image-emote-list">
+
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade col-sm-6" id="cmdChatSound">
+        <ul id="sound-emote-list">
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="cmdChatMod">
+        <ul>
+          <li><b>/purge </b>- delete playlist</li>
+          <li><b>/clear </b>- clears chat</li>
+          <li><b>/addemote [tag] [url]</b></li>
+          <li><b>/msgdel [true/false]</b></li>
+          <li><b>/lock </b>- toggle playlist lock</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="cmdChatAdminSystem">
+      <ul>
+        <li><b>/editbg [url] </b>- changes background image</li>
+        <li><b>/editbanner [url] </b>- changes banner</li>
+        <li><b>/muteall </b>- mute chat</li>
+        <li><b>/unmuteall </b>- unmute chat</li>
+        <li><b>/maxq [time] </b>- changes maximum queue time</li>
+        <li><b>/maxv [number] </b>- changes maximum number of video</li>
+        <li><b>/voteratio [ratio] </b>- changes voteskip ratio</li>
+        <li><b>/vs[on/off] </b>- turn on voteskip</li>
+        <li><b>/noise[on/off] </b>- turn on emote notice</li>
+        <li><b>/chatimg [url/false]</b> - set chatimg or remove chat img (set false)</li>
+        <li><b>/chatimgop [opacity(0-1)]</b> - change chatimg opacity</li>
+        <li><b>/chatlimit[on/off]</b> - limit chat messages to x seconds</li>
+        <li><b>/setchatlimit [seconds] </b>- set chat message delay in seconds</li>
+        <li><b>/amqq</b>- embed amq to the playlist</li>
+        <li><b>/text[on/off]</b>- turn on/off floating text</li>
+        <li><b>/addfilter [input] [output]</b>- chat filter</li>
+        <li><b>/tts [text]</b> - annoying tts</li>
+      </ul>
+      </div>
+      <div class="tab-pane fade" id="cmdChatAdminEtc">
+        <ul>
+          <li><b>!event1 </b>- will loop until stopped</li>
+          <li><b>/stope1 </b>- cancel event1</li>
+          <li><b>/event1bg [image url] </b>- set event1 bg</li>
+          <li><b>/event1music [audio url] </b>- set event1 music</li>
+          <li><b>/event1img [image url] </b>- set event1 img</li>
+          <li><b>/event1effect [image url] </b>- set event1 effect</li>
+          <li><b>/event1effectedit</b> - enable edit effect1 position</li>
+          <li><b>!img1 </b>- shows img1 on the screen</li>
+          <li><b>/img1 [image/gif url] </b>- set img1</li>
+          <li><b>/img1hide</b> - hide img1</li>
+          <li><b>/img1edit </b>- enable edit</li>
+          <li><b>!img1fixed </b>- shows fixed img1 on the screen</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row col-sm-12">
+    <h4 class="yellow">Misc.</h4>
+    <ul>
+      <li><h5>Name color change: add color hex code to your profile text</h5></li>
+      <li><h5>"Admin" commands require permission to change js and css</h5></li>
+    </ul>
+  </div>
+</div>
+<div id="motd-mode" data-value="false"></div>
+<div>
+   <h4 class="yellow">Google Drive Extension</h4>
+   <ul>
+    <li>
+      1) Add the Tampermonkey extension to whichever browser you use (Violentmonkey and Greasemonkey also work): 
+      <ul>
+       <li><b><a class="underline" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">Chrome</a></b></li>
+       <li><b><a class="underline" href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" target="_blank">Firefox</a><b></b></b></li>
+     </ul>
+    </li>
+    <li>
+      2) Install the script: <a href="https://cytu.be/js/cytube-google-drive.user.js" target="_blank">https://cytu.be/js/cytube-google-drive.user.js</a> Then you're done.
+    </li>
+   </ul>
+  </div>
