@@ -2862,11 +2862,11 @@ window.countdowner = function(countdown, destination,index) {
 }
 
 window.loadInitializer = function() {
-	readSheet();
-	readTickets();
-	readVideoList();
-	readVideoListBatch1();
-	readAchievement();
+	//readSheet();
+	//readTickets();
+	//readVideoList();
+	//readVideoListBatch1();
+	//readAchievement();
 	let streamStr1 = "Next ";
 	let streamStr2 = " stream starts in...";
 	$('#head1').html(streamStr1 + countdownText1 + streamStr2);
